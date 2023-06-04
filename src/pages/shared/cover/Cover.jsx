@@ -5,11 +5,11 @@ const Cover = ({ img, title, subTitle }) => {
     <Parallax
       blur={{ min: -50, max: 50 }}
       bgImage={img}
-      //   bgImageSize={"700px"}
+      // bgImageStyle={{}}
       bgImageAlt="the menu"
       strength={-200}
     >
-      <div className="hero h-[700px]">
+      <div className="hero h-[500px]">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
